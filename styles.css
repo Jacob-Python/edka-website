@@ -42,9 +42,10 @@ body {
 }
 .header{
 	border-radius: 25px;
-	border: 5px solid #ff8c00
-	background-color: #070707;
-	padding: 20px;
+	border: 5px solid #070707;
+	padding-top: 20px;
+	background-color: #fffdd0;
+	font-size: 32px;
 	width: 500px;
 	height: 30px;
 }
@@ -65,6 +66,5 @@ body {
 
 .header-logo{
 	width: 50px;
-	border: 5px solid #070707;
 	border-radius: 35%
 }

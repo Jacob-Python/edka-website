@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Jacob&apos;s Website</title>
+		<title>East Dragon Karate Academy</title>
 		<link rel="icon" href="favicon_16x16.png">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<script src="ui.js"></script>
@@ -11,16 +11,26 @@
 	</head>
 	<body>
 		<div id="header">
-			<div class="header"><img alt="Header logo" src="favicon_36x36.png" class="header-logo" style="width:50px">East Dragon Karate Academy</div>
+			<br><span class="header"><img alt="Header logo" src="favicon_36x36.png" class="header-logo" style="width:50px">East Dragon Karate Academy</span><br><br>
+			<span id="buttons">
+				<button onclick="window.location.href='index.html" class="button">Home</button>
+				<button onclick="window.location.href='sched.html" class="button">Schedule</button>
+			</span>
 		</div>
-		<hr>
 		<div id="content">
-			<h1>Hello, my name is Jacob</h1>
-			<u class="addendum" id="i1a" onclick="showdiv('i1')"><b>+</b> About Me</u>
-			<p id="i1" hidden>I am a science and computer science lover.<br>I enjoy biology, programming, and spending time with my family.<br>In my free time, I enjoy working on my YouTube channel,<br>
-			programming, and doing experiments.</p><br><br>
-			<u class="addendum" id="i2a" onclick="showdiv('i2')"><b>+</b> What I Do</u><br>
-			<p id="i2" hidden>I program, make 3D animations in Blender,<br>program, and do biology experiments.<br>Currently, I am working on a cure<br> for the COVID-19 virus.</p>
+			<h1>Welcome to East Dragon Karate Academy</h1>
+			<u class="addendum" id="i1a" onclick="showdiv('i1')"><b>+</b> About Us</u>
+			<p id="i1" hidden>East Dragon Karate Academy is a dojo in Dover, NJ,<br> located at 58 Bassett Hwy. The sensei is Sensei Bill Roberts.<br>We teach many martial arts, focusing chiefly on Tai Chi and Isshinryu Karate.<br>It&apos;s a wonderful place to be.</p><br><br>
+			<u class="addendum" id="i2a" onclick="showdiv('i2')"><b>+</b> SARS-CoV-2 Pandemic</u><br>
+			<p id="i2" hidden>Due to current events, we will be only practicing<br>Tai Chi. We will be practicing at Hedden Park nearby. This page<br>will be updated as time passes.</p>
+			<h1>Gallery</h1>
+			<img src="1.jpg" id="slide"><br><br>
+			&emsp;&emsp;&emsp;&emsp;<svg width="50" height="20">
+				&emsp;&emsp;&emsp;&emsp;<circle cx="20" cy="10" r="10" fill="grey"></circle>
+				&emsp;&emsp;&emsp;&emsp;<circle cx="40" cy="10" r="10" fill="black"></circle>
+				&emsp;&emsp;&emsp;&emsp;Sorry, your browser doesn't support inline SVG.
+			&emsp;&emsp;&emsp;&emsp;</svg><br>
+			&emsp;&emsp;&emsp;&emsp;<button onclick="last_img()">&lt;</button><button onclick="next_img()">&gt;</button>
 		</div>
 	</body>
 </html>
